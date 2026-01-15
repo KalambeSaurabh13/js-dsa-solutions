@@ -15,3 +15,5 @@ var removeElement = function(nums, val) {
     }
     return slow
 };
+
+console.log(removeElement([3,2,2,3],3)) // 2`

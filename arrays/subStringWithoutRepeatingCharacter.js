@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {number}
  */
-// time complexity O(n)  Space complexity O(min(m,n))
+// time complexity O(n)  Space complexity O(n)
 var lengthOfLongestSubstring = function(s) {
     let set = new Set();
     let left = 0; maxLen =0;
